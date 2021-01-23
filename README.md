@@ -17,7 +17,7 @@ Backend:
 	- Java
   - XML
   - IntelliJ Platform SDK
-
+```
 
 ### Screens:
 <p align="center">
