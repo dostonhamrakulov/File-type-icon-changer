@@ -19,6 +19,8 @@
         <fileType name="HTML File" implementationClass="dev.dosha.plugin.html.HtmlFileType"
                   fieldName="INSTANCE" language="HTML" extensions="html"/>
 
+        <fileType name="CSS File" implementationClass="dev.dosha.plugin.css.CssFileType"
+                  fieldName="INSTANCE" language="CSS" extensions="css"/>
     </extensions>
 
     <actions>
