@@ -1,11 +1,11 @@
 <idea-plugin>
     <id>dev.dosha.plugin.file-type-icon-changer</id>
-    <name>Plugin display name here</name>
-    <vendor email="support@yourcompany.com" url="http://www.yourcompany.com">YourCompany</vendor>
+    <name>File Type Icon Changer</name>
+    <vendor email="doston@hamdos.de" url="http://hamdos.de">Doston Hamrakulov</vendor>
 
     <description><![CDATA[
-    Enter short description for your plugin here.<br>
-    <em>most HTML tags may be used</em>
+    File type icon changer plugin changes default icons in Intellij into custom made icons based on file type. <br />
+    If a file type is Java, then the icon of Java will be shown.
     ]]></description>
 
     <!-- please see https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
@@ -13,7 +13,8 @@
     <depends>com.intellij.modules.platform</depends>
 
     <extensions defaultExtensionNs="com.intellij">
-        <!-- Add your extensions here -->
+        <fileType name="Java File" implementationClass="dev.dosha.plugin.java.JavaFileType"
+                  fieldName="INSTANCE" language="Java" extensions="java"/>
     </extensions>
 
     <actions>
