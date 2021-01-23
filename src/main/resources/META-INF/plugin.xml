@@ -15,6 +15,10 @@
     <extensions defaultExtensionNs="com.intellij">
         <fileType name="Java File" implementationClass="dev.dosha.plugin.java.JavaFileType"
                   fieldName="INSTANCE" language="Java" extensions="java"/>
+
+        <fileType name="HTML File" implementationClass="dev.dosha.plugin.html.HtmlFileType"
+                  fieldName="INSTANCE" language="HTML" extensions="html"/>
+
     </extensions>
 
     <actions>
