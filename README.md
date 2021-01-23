@@ -13,8 +13,7 @@ If you want to use your custom icon, please replace it under: [File-type-icon-ch
 
 ### Used programming languages and SDK
 ```json
-Backend:
-	- Java
+  - Java
   - XML
   - IntelliJ Platform SDK
 ```
